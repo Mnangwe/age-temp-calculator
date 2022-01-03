@@ -33,15 +33,15 @@ function tempCalc(){
         alert('Please write numbers only')
     }
     else if(celsius > 23){
-        alert("The temperature is ${celsius} degrees. It's warm today wear shorts and T-shrits")
+        alert(`The temperature is ${celsius} degrees. It's warm today wear shorts and T-shrits`)
     }
     else if(celsius < 22 && celsius > 16){
-        alert("The temperature is ${celsius} degrees. Wear jeans and long sleeves")
+        alert(`The temperature is ${celsius} degrees. Wear jeans and long sleeves`)
     }
     else if(celsius < 16 && celsius > 12){
-        alert("The temperature is ${celsius} degrees. It's going to be cold today")
+        alert(`The temperature is ${celsius} degrees. It's going to be cold today`)
     }
     else{
-        alert("The temperature is ${celsius} degrees. Becareful of the possible rain today")
+        alert(`The temperature is ${celsius} degrees. Becareful of the possible rain today`)
     }
 }
