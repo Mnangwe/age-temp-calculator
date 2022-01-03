@@ -5,35 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Project</title>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>This is age Calculator</h1>
-    <form action="">
-        <fieldset>
-            <legend>Age Calculator</legend>
-            <div>
-                <label for="currentYear">Current Year:</label>
-                <input type="text" id="currentYear" placeholder="Current Year">
-                <label for="birthYear">Birth Year:</label>
-                <input type="text" id="bornYear" placeholder="Birth Year">
-                <button type="submit" onclick="ageCalc()">Calculate</button>
-            </div>
-        </fieldset>
-    </form>
 
-    <h1>This is temperature <em style="font-size: 25px;">(<sup>o</sup>F )</em> Converter</h1>
-    <form action="">
-        <fieldset>
-            <legend>Temperature Converter</legend>
-            <div>
+    <div class="bind">
+        <h2>This is age Calculator</h2>
+
+                
+                <label for="currentYear">Current Year:</label>
+                <input type="text" id="currentYear" placeholder="Current Year" class="yearC">
+                <label for="birthYear">Birth Year:</label>
+                <input type="text" id="bornYear" placeholder="Birth Year" class="yearB">
+                <button type="submit" onclick="ageCalc()"><strong>Calculate</strong></button>
+    </div>
+    
+    <div class="bind">
+        <h2>This is temperature <em style="font-size: 25px;">(<sup>o</sup>F )</em> Converter</h2>
+            
                 <label for="Temperature">Temperature(Fahrenheit):</label>
-                <input type="text" id="Temperature" placeholder="in Fahrenheit">
-                <button type="submit" onclick="tempCalc()">Convert</button>
-            </div>
-        </fieldset>
-    </form>
+                <input type="text" id="Temperature" placeholder="in Fahrenheit" class="yearB">
+                <button type="submit" onclick="tempCalc()"> <strong> Convert</strong></button>
+            
+
+    </div>
 
     <script type="text/javascript" src="age.js"></script>
 </body>
